@@ -1,5 +1,5 @@
 # Polycomb RCMC Analysis Code
-This repository contains source code for the preprint [Dissection of Polycomb complexes reveals canonical PRC1-independent 3D chromatin interactions](XXXXXXX), used in the analysis of data presented in the manuscript. 
+This repository contains source code for the preprint [Dissection of Polycomb complexes reveals canonical PRC1-independent 3D chromatin interactions](https://www.biorxiv.org/content/10.64898/2026.10.13.758654v1), used in the analysis of data presented in the manuscript. 
 
 Code is provided either in the form of Python scripts or Jupyter notebooks to be run in conda environments containing the required packages, or as standalone R scripts requiring installation of the packages listed in the code.
 
