@@ -1,0 +1,6 @@
+/mnt/md0/toppen/projects/synEP/movies/20250223/BeadsOnmESCs_10ms_0_3umIntervals_15by650-01.czi
+/mnt/md0/toppen/projects/synEP/movies/20250223/BeadsOnmESCs_10ms_0_3umIntervals_15by650-02.czi
+/mnt/md0/toppen/projects/synEP/movies/20250223/BeadsOnmESCs_10ms_0_3umIntervals_15by650-03.czi
+/mnt/md0/toppen/projects/synEP/movies/20250223/BeadsOnmESCs_10ms_0_3umIntervals_15by650-04.czi
+/mnt/md0/toppen/projects/synEP/movies/20250223/BeadsOnmESCs_10ms_0_3umIntervals_15by650-05.czi
+/mnt/md0/toppen/projects/synEP/movies/20250223/BeadsOnmESCs_10ms_0_3umIntervals_15by650-06.czi

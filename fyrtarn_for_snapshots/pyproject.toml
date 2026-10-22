@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipeline"
+version = "1.0.0"
+authors = [
+  {name="Jack Toppen"},
+]
+description="Pipeline for lattice light-sheet microscopy"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "notebook",
+    "ipympl",
+    "numpy>=2.0",
+    "scipy",
+    "numba",
+    "tqdm",
+    "pyyaml",
+    "tifffile",
+    "matplotlib",
+    "opencv-python",
+    "aicspylibczi",
+    "trackpy",
+    "h5py",
+]
+
+[project.optional-dependencies]
+11 = ["cupy-cuda11x>=14.0"]
+12 = ["cupy-cuda12x>=14.0"]
+13 = ["cupy-cuda13x>=14.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.distutils.egg_info]
+egg_base = ".install"
