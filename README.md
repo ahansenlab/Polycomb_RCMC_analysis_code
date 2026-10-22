@@ -117,6 +117,26 @@ Required packages:
 
 R script used to process outputs from single locus microscopy 3D distance measurements and produce plots for figures.
 
+### Using the modified [Fyrtarn](https://github.com/ahansenlab/Fyrtarn/tree/main) pipeline for snapshots (fyrtarn_for_snapshots/)
+To use, follow the below instructions:
+1. Create a conda environment
+```
+conda create --name fyrtarn_for_snapshots python=3.13
+conda activate fyrtarn_for_snapshots
+```
+2. Create a folder to clone the repo to
+```
+cd directory/for/repo/download
+git clone https://github.com/ahansenlab/Polycomb_RCMC_analysis_code
+cd Polycomb_RCMC_analysis_code/fyrtarn_for_snapshot
+```
+3. Follow the below instructions to install necessary packages. Note from the original Fyrtarn: Support for (NVIDIA) GPUs is enabled through CuPy. In order to work properly, this dependency must be configured to the CUDA Toolkit version. For example, an environment with CUDA 12.9 would use the following (i.e. pip install -e .[12])
+```
+mkdir .install
+pip install -e .[CUDA]
+pip install -e .[12]
+```
+
 ## How to cite
 This work is shared under an MIT license. If you make use of analysis scripts or data from this work, please cite as follows:
 
