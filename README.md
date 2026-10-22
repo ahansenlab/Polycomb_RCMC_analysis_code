@@ -120,4 +120,4 @@ R script used to process outputs from single locus microscopy 3D distance measur
 ## How to cite
 This work is shared under an MIT license. If you make use of analysis scripts or data from this work, please cite as follows:
 
-XXXXXXXXXXXXXXX
+Huseyin, M. K., Kim, S., Toppen, J., Blackledge, N. P. & Hansen, A. S. Dissection of Polycomb complexes reveals canonical PRC1-independent 3D chromatin interactions. 2026.10.13.758654 Preprint at https://doi.org/10.64898/2026.10.13.758654 (2026).
