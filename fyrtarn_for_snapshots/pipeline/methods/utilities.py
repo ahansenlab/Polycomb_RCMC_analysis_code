@@ -370,10 +370,10 @@ def read_czi(path, frame):
     signal = np.squeeze(signal)
     signal = np.array(signal, ndmin=4, dtype=np.float32)
 
-    # # Added for when some files have R1B-HT Far-red signal as was the case in dTAG locus imaging
-    # # -- gets rid of Ch0 (far-red; RING1B-HT; so all that is left are 561/488 channels)
-    # if signal.shape[0] == 3:
-    #     signal = signal[1:]
+    # Added for when some files have R1B-HT Far-red signal as was the case in dTAG locus imaging
+    # -- gets rid of Ch0 (far-red; RING1B-HT; so all that is left are 561/488 channels)
+    if signal.shape[0] == 3:
+        signal = signal[1:]
     return signal
 
 
