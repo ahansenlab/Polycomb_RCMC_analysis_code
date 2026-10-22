@@ -136,6 +136,7 @@ mkdir .install
 pip install -e .[CUDA]
 pip install -e .[12]
 ```
+N.B. that with this version, only the last two channels will be used if the images contain three channels.
 
 ## How to cite
 This work is shared under an MIT license. If you make use of analysis scripts or data from this work, please cite as follows:
